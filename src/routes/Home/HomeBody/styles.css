@@ -1,0 +1,11 @@
+.gapi-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--gapi-color-font-secondary);
+}
+
+.gapi-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--gapi-color-font-quinary);
+}

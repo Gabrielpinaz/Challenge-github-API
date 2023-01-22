@@ -1,0 +1,11 @@
+.gapi-btn {
+  background-color: var(--gapi-color-bg-secondary);
+  color: var(--gapi-color-font-primary);
+  margin-top: 30px;
+  width: 101px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}

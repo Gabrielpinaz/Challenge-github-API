@@ -1,0 +1,58 @@
+.gapi-card-style {
+  margin-top: 55px;
+  width: 1251px;
+  height: 334px;
+  background-color: var(--gapi-color-bg-quaternary);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.gapi-img-style {
+  margin: 0 30px 0 40px;
+}
+
+.gapi-img-style img {
+  max-width: 247px;
+  height: 247px;
+}
+
+.gapi-information-style {
+  padding-left: 14px;
+  background-color: var(--gapi-color-bg-primary);
+  width: 100%;
+  max-width: 902px;
+  height: 247px;
+  border-radius: 6px;
+}
+
+.gapi-information-style h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gapi-color-font-tertiary);
+  padding: 8px 0 19px 0;
+}
+
+.gapi-information-content {
+  width: 100%;
+  max-width: 872px;
+  height: 40px;
+  border: 1px solid var(--cgapi-color-border);
+  color: var(--gapi-color-font-setenary);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.gapi-information-content p {
+  color: var(--gapi-color-font-setenary);
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.gapi-information-content a {
+  color: var(--gapi-color-link);
+}

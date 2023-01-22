@@ -1,0 +1,66 @@
+.gapi-content {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.gapi-card {
+  margin-top: 55px;
+  background-color: var(--gapi-color-bg-tertiary);
+  border-radius: 16px;
+  width: 1251px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+}
+
+.gapi-card-content {
+  padding-left: 30px;
+}
+
+.gapi-card-content h2 {
+  font-size: 38px;
+  font-weight: 500;
+  color: var(--gapi-color-font-secondary);
+  padding-bottom: 12px;
+}
+
+.gapi-card-content input {
+  width: 298px;
+  height: 40px;
+  color: var(--gapi-color-font-senary);
+  font-size: 16px;
+  padding-left: 17px;
+  border-radius: 4px;
+  border: 1px solid var(--cgapi-color-border);
+}
+
+.gapi-card-content input:focus {
+  outline: none;
+}
+
+.gapi-card-content input::placeholder {
+  color: var(--gapi-color-font-quaternary);
+}
+
+.gapi-card-content button {
+  background-color: var(--gapi-color-bg-secondary);
+  color: var(--gapi-color-font-primary);
+  font-size: 16px;
+  margin-top: 24px;
+  width: 101px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gapi-title {
+  margin-top: 64px;
+  font-size: 38px;
+  font-weight: 500;
+}
